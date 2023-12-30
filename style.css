@@ -395,7 +395,7 @@ input:checked+label .description {
 }
 
 .card[for="c1"] {
-    background-image: url(/Images/Coursera\ HTML5\ Certificate-1.jpeg);
+    background-image: url(Coursera\ HTML5\ Certificate-1.jpeg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

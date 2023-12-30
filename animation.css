@@ -1,0 +1,80 @@
+
+
+@keyframes progress {
+    0% {
+        background-position: -150% 0, -150% 0;
+    }
+
+    66% {
+        background-position: 250% 0, -150% 0;
+    }
+
+    100% {
+        background-position: 250% 0, 250% 0;
+        display: none;
+    }
+}
+
+
+
+#Face {
+    animation-name: face;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: all linear both;
+}
+
+@keyframes face {
+    from {
+        transform: translateX(-10px) rotateZ(0.5deg);
+    }
+
+    to {
+        transform: translateX(1px) rotateY(-2deg);
+    }
+}
+
+
+#finger-1 {
+    animation-name: finger-1;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: all linear both;
+}
+
+@keyframes finger-1 {
+    from {
+        transform: rotateX(10deg);
+    }
+}
+
+#finger-2 {
+    animation-name: finger-2;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: all linear both;
+}
+
+@keyframes finger-2 {
+    from {
+        transform: rotateX(5deg);
+    }
+}
+
+#tail {
+    animation-name: tail;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: all linear both;
+}
+
+@keyframes tail {
+    from {
+        transform: rotateX(7deg);
+    }
+}
+

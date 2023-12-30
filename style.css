@@ -402,28 +402,28 @@ input:checked+label .description {
 }
 
 .card[for="c2"] {
-    background-image: url(/Images/CertificateOfCompletion_CSS\ Essential\ Training-1.jpeg);
+    background-image: url(CertificateOfCompletion_CSS\ Essential\ Training-1.jpeg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .card[for="c3"] {
-    background-image: url(/Images/CertificateOfCompletion_Become\ a\ Junior\ WordPress\ Developer-1.jpeg);
+    background-image: url(CertificateOfCompletion_Become\ a\ Junior\ WordPress\ Developer-1.jpeg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .card[for="c4"] {
-    background-image: url(/Images/CertificateOfCompletion_JavaScript\ Essential\ Training-1.jpeg);
+    background-image: url(CertificateOfCompletion_JavaScript\ Essential\ Training-1.jpeg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .card[for="c5"] {
-    background-image: url(/Images/CertificateOfCompletion_User\ Experience\ for\ Web\ Design-1.jpeg);
+    background-image: url(CertificateOfCompletion_User\ Experience\ for\ Web\ Design-1.jpeg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
